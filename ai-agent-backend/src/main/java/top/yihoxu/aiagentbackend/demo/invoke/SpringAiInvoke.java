@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  * @date 2025/4/28  14:07
  * @description spring ai 调用
  */
-@Component
+//@Component
 public class SpringAiInvoke implements CommandLineRunner {
     @Resource
     private ChatModel dashcopeChatModel;
