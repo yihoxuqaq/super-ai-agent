@@ -38,4 +38,13 @@ class LoveAppTest {
 
     }
 
+    @Test
+    void doChatWithRag() {
+        String uuid = UUID.randomUUID().toString();
+        String message="我单身很久了，最近想谈一场甜甜的恋爱，我想找的另一半对象是跟我星座相同、兴趣相同的。我的生日是4月8日，我的爱好是跑酷";
+        String answer = loveApp.doChatWithRag(message, uuid);
+        Assertions.assertNotNull(answer);
+
+
+    }
 }

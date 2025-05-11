@@ -14,9 +14,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 基于文件持久化的对话记忆
- */
+
 /**
  * 基于文件持久化的对话记忆
  */
